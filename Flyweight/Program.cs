@@ -4,12 +4,12 @@
 
         TankFactory tankFactory = new TankFactory();
 
-        // Создаем танки Т-34
+        
         for (int i = 0; i < 5; i++)
         {
             Tank t34 = tankFactory.GetTank("T-34");
             if (t34 != null)
-                t34.Display(x, y, 100); // 100 - здоровье
+                t34.Display(x, y, 100); 
             x += 10.0;
             y += 10.0;
         }
