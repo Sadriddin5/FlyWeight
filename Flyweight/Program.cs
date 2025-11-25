@@ -193,11 +193,7 @@ namespace TankGame.FlyweightPattern
         }
     }
 
-    
-    class Program
-    {
-        static void Main(string[] args)
-        {
+
             Console.WriteLine(" ДЕМОНСТРАЦИЯ ПАТТЕРНА ЛЕГКОВЕС ДЛЯ ТАНКОВ \n");
 
             
@@ -252,5 +248,4 @@ namespace TankGame.FlyweightPattern
 
            
         }
-    }
-}
+ 
